@@ -1,4 +1,46 @@
-.App {
+body{
+  margin: 0;
+  background: linear-gradient(to  right, orange,white,white,green);
+}
+
+button{
+  font-size: 2rem;
+  background-color: skyblue;
+  border:2px solid black;
+}
+
+button:hover,button:focus{
+  background-color: lightblue;
+}
+.double-width{
+  grid-column: span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +77,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
